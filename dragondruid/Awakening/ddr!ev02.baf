@@ -7,7 +7,7 @@ THEN
   ChangeClass(myself,SORCERER)
   AddSuperKit(DDRawk)
   AddXPObject(myself,600000)
-  DisplayStringHead(Myself,~�����ڵ���֮Ѫ�����ˡ�~)
+  DisplayStringHead(Myself,~你体内的龙之血觉醒了。~)
   SetGlobal("DDR!awk","LOCALS",1)
 END
 
@@ -17,7 +17,7 @@ IF
   Global("DDR!awk","LOCALS",0)
 THEN
   RESPONSE #100
-  DisplayStringHead(Myself,~��֮Ѫ�ľ��ѱ������ˡ�~)
+  DisplayStringHead(Myself,~龙之血的觉醒被抑制了。~)
   SetGlobal("DDR!awk","LOCALS",2)
 END
 
